@@ -1,0 +1,17 @@
+# ninja log v5
+0	339	7026742282200091	CMakeFiles/git_project.dir/main.c.obj	58aefa0fc5c72b27
+2	325	7026742590000460	CMakeFiles/git_project.dir/libs/data_structures/vector/vector.c.obj	43597047cc5d0cc1
+1	325	7026743119188997	CMakeFiles/git_prjct.dir/libs/data_structures/vector/vector.c.obj	bd1109a1480469f9
+325	529	7026743121216575	git_prjct.exe	389463a946f01ff3
+2	330	7026751178217908	CMakeFiles/git_prjct.dir/libs/data_structures/vector/vector.c.obj	bd1109a1480469f9
+330	544	7026751180341910	git_prjct.exe	389463a946f01ff3
+3	375	7026773407551339	CMakeFiles/git_prjct.dir/libs/data_structures/vector/vector.c.obj	bd1109a1480469f9
+376	617	7026773409944946	git_prjct.exe	389463a946f01ff3
+3	332	7026773579600913	CMakeFiles/git_prjct.dir/libs/data_structures/vector/vector.c.obj	bd1109a1480469f9
+333	541	7026773581674309	git_prjct.exe	389463a946f01ff3
+2	331	7026774141912224	CMakeFiles/git_prjct.dir/libs/data_structures/vector/vector.c.obj	bd1109a1480469f9
+332	543	7026774144000552	git_prjct.exe	389463a946f01ff3
+3	338	7026775466386408	CMakeFiles/git_prjct.dir/libs/data_structures/vector/vector.c.obj	bd1109a1480469f9
+338	546	7026775468458444	git_prjct.exe	389463a946f01ff3
+2	337	7026792039976808	CMakeFiles/git_prjct.dir/libs/data_structures/vector/vector.c.obj	bd1109a1480469f9
+338	550	7026792042080539	git_prjct.exe	389463a946f01ff3

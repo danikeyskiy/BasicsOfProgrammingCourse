@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "git_project.exe"
+			"path" : "git_prjct.exe"
 		},
 		{
-			"path" : "git_project.pdb"
+			"path" : "git_prjct.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -27,7 +27,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 6,
+				"line" : 7,
 				"parent" : 0
 			}
 		]
@@ -59,7 +59,7 @@
 			]
 		}
 	],
-	"id" : "git_project::@6890427a1f51a3e7e1df",
+	"id" : "git_prjct::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -79,8 +79,8 @@
 		],
 		"language" : "C"
 	},
-	"name" : "git_project",
-	"nameOnDisk" : "git_project.exe",
+	"name" : "git_prjct",
+	"nameOnDisk" : "git_prjct.exe",
 	"paths" : 
 	{
 		"build" : ".",
@@ -101,7 +101,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "main.c",
+			"path" : "libs/data_structures/vector/vector.c",
 			"sourceGroupIndex" : 0
 		}
 	],

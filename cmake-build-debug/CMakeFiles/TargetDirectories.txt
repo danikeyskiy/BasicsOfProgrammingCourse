@@ -1,3 +1,4 @@
 B:/CLionProjects/git project/cmake-build-debug/CMakeFiles/git_project.dir
+B:/CLionProjects/git project/cmake-build-debug/CMakeFiles/git_prjct.dir
 B:/CLionProjects/git project/cmake-build-debug/CMakeFiles/edit_cache.dir
 B:/CLionProjects/git project/cmake-build-debug/CMakeFiles/rebuild_cache.dir
