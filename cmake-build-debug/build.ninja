@@ -79,39 +79,6 @@ build git_project.exe: C_EXECUTABLE_LINKER__git_project_Debug CMakeFiles/git_pro
   TARGET_IMPLIB = libgit_project.dll.a
   TARGET_PDB = git_project.exe.dbg
 
-# =============================================================================
-# Object build statements for EXECUTABLE target git_prjct
-
-
-#############################################
-# Order-only phony target for git_prjct
-
-build cmake_object_order_depends_target_git_prjct: phony || CMakeFiles/git_prjct.dir
-
-build CMakeFiles/git_prjct.dir/libs/data_structures/vector/vector.c.obj: C_COMPILER__git_prjct_Debug B$:/CLionProjects/git$ project/libs/data_structures/vector/vector.c || cmake_object_order_depends_target_git_prjct
-  DEP_FILE = CMakeFiles\git_prjct.dir\libs\data_structures\vector\vector.c.obj.d
-  FLAGS = -g -std=gnu2x
-  OBJECT_DIR = CMakeFiles\git_prjct.dir
-  OBJECT_FILE_DIR = CMakeFiles\git_prjct.dir\libs\data_structures\vector
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target git_prjct
-
-
-#############################################
-# Link the executable git_prjct.exe
-
-build git_prjct.exe: C_EXECUTABLE_LINKER__git_prjct_Debug CMakeFiles/git_prjct.dir/libs/data_structures/vector/vector.c.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\git_prjct.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = git_prjct.exe
-  TARGET_IMPLIB = libgit_prjct.dll.a
-  TARGET_PDB = git_prjct.exe.dbg
-
 
 #############################################
 # Utility command for edit_cache
@@ -138,8 +105,6 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build git_prjct: phony git_prjct.exe
-
 build git_project: phony git_project.exe
 
 # =============================================================================
@@ -150,7 +115,7 @@ build git_project: phony git_project.exe
 #############################################
 # Folder: B:/CLionProjects/git project/cmake-build-debug
 
-build all: phony git_project.exe git_prjct.exe
+build all: phony git_project.exe
 
 # =============================================================================
 # Built-in targets
