@@ -49,11 +49,11 @@ cmake_ninja_workdir = B$:/CLionProjects/git$ project/cmake-build-debug/
 
 build cmake_object_order_depends_target_git_project: phony || CMakeFiles/git_project.dir
 
-build CMakeFiles/git_project.dir/main.c.obj: C_COMPILER__git_project_Debug B$:/CLionProjects/git$ project/main.c || cmake_object_order_depends_target_git_project
-  DEP_FILE = CMakeFiles\git_project.dir\main.c.obj.d
+build CMakeFiles/git_project.dir/libs/data_structures/vector/main.c.obj: C_COMPILER__git_project_Debug B$:/CLionProjects/git$ project/libs/data_structures/vector/main.c || cmake_object_order_depends_target_git_project
+  DEP_FILE = CMakeFiles\git_project.dir\libs\data_structures\vector\main.c.obj.d
   FLAGS = -g -std=gnu2x
   OBJECT_DIR = CMakeFiles\git_project.dir
-  OBJECT_FILE_DIR = CMakeFiles\git_project.dir
+  OBJECT_FILE_DIR = CMakeFiles\git_project.dir\libs\data_structures\vector
 
 build CMakeFiles/git_project.dir/libs/data_structures/vector/vector.c.obj: C_COMPILER__git_project_Debug B$:/CLionProjects/git$ project/libs/data_structures/vector/vector.c || cmake_object_order_depends_target_git_project
   DEP_FILE = CMakeFiles\git_project.dir\libs\data_structures\vector\vector.c.obj.d
@@ -69,7 +69,7 @@ build CMakeFiles/git_project.dir/libs/data_structures/vector/vector.c.obj: C_COM
 #############################################
 # Link the executable git_project.exe
 
-build git_project.exe: C_EXECUTABLE_LINKER__git_project_Debug CMakeFiles/git_project.dir/main.c.obj CMakeFiles/git_project.dir/libs/data_structures/vector/vector.c.obj
+build git_project.exe: C_EXECUTABLE_LINKER__git_project_Debug CMakeFiles/git_project.dir/libs/data_structures/vector/main.c.obj CMakeFiles/git_project.dir/libs/data_structures/vector/vector.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\git_project.dir
